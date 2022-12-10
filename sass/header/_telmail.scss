@@ -1,0 +1,66 @@
+.link-contact {
+  list-style: var(--point);
+  display: flex;
+}
+
+.contacts__contact {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-item-tel-mail);
+  text-decoration: var(--link-decoration);
+  display: flex;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+
+  &:hover .contacts__envelop {
+    fill: #2196f3;
+  }
+
+  &:focus .contacts__envelop {
+    fill: #2196f3;
+  }
+}
+
+.contacts__contact .contacts__envelop {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__contact .contacts__smartphone {
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__envelop {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.contacts__smartphone {
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.contact-tel:hover .contacts__smartphone {
+  fill: #2196f3;
+}
+
+.contact-tel:focus .contacts__smartphone {
+  fill: #2196f3;
+}
+
+.contact-mail {
+  margin-right: 30px;
+}

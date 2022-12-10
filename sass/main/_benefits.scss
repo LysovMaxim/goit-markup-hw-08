@@ -1,0 +1,54 @@
+.benefits {
+  background-color: var(--second-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.caption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits-list__icons {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefits-list__item {
+  list-style: var(--point);
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.benefits-list__item-header {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.benefits-list__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-item-tel-mail);
+}
