@@ -1,7 +1,7 @@
 :root {
-  --second-color: #FFFFFF;
-  --brend-color: #2F303A;
-  --background-team: #F5F4FA;
+  --second-color: #ffffff;
+  --brend-color: #2f303a;
+  --background-team: #f5f4fa;
   --color-item-tel-mail: #757575;
   --link-decoration: none;
   --point: none;
@@ -23,7 +23,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -287,13 +287,6 @@ body {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.benefits-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
 }
 
 .benefits-list__icons {
