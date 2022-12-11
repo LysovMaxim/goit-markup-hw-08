@@ -1,13 +1,15 @@
 .out-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
   background-color: var(--background-team);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .work-team {
   list-style: var(--point);
-  display: flex;
-  gap: 30px;
+  // display: flex;
+  // gap: 30px;
 }
 
 .player {
@@ -28,6 +30,9 @@
 .player-teams {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .job {

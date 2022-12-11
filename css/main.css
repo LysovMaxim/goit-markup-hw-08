@@ -46,7 +46,6 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
   height: auto;
   width: 100%;
 }
@@ -406,9 +405,9 @@ body {
 }
 
 .work {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.16;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 33px;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -444,17 +443,13 @@ body {
 }
 
 .out-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--background-team);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .work-team {
   list-style: var(--point);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
 }
 
 .player {
@@ -475,6 +470,9 @@ body {
 .player-teams {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.player-teams:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .job {
