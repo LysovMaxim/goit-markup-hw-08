@@ -1,6 +1,16 @@
 .works {
   background-color: var(--second-color);
   padding-bottom: 94px;
+
+  @media screen and (min-width: 0px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 
 .work {

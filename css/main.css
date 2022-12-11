@@ -389,6 +389,21 @@ body {
   background-color: var(--second-color);
   padding-bottom: 94px;
 }
+@media screen and (min-width: 0px) {
+  .works {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .works {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .works {
+    display: block;
+  }
+}
 
 .work {
   margin-bottom: 50px;
