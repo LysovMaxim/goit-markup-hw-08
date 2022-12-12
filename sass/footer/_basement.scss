@@ -25,8 +25,9 @@
 }
 
 .footer-list {
-  display: flex;
-  align-items: baseline;
+  text-align: center;
+  // display: flex;
+  // align-items: baseline;
 }
 
 .address-title {
@@ -55,13 +56,14 @@
   margin-bottom: 9px;
 }
 
-.join {
-  margin-left: 70px;
-}
+// .join {
+//   margin-left: 70px;
+// }
 
 .join-title {
-  display: flex;
-  align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
+
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -74,6 +76,7 @@
   display: flex;
   list-style: none;
   gap: 10px;
+  justify-content: center;
 }
 
 .footer-social {

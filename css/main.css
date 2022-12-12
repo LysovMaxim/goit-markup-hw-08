@@ -620,6 +620,7 @@ body {
 
 .clients-atem {
   list-style: var(--point);
+  max-width: 100%;
 }
 
 .clients-link {
@@ -687,12 +688,7 @@ body {
 }
 
 .footer-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  text-align: center;
 }
 
 .address-title {
@@ -723,17 +719,7 @@ body {
   margin-bottom: 9px;
 }
 
-.join {
-  margin-left: 70px;
-}
-
 .join-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -748,6 +734,9 @@ body {
   display: flex;
   list-style: none;
   gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-social {
