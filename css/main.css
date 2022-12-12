@@ -811,7 +811,7 @@ body {
 @media screen and (min-width: 1200px) {
   .subscription {
     margin-top: 0px;
-    margin-left: 93px;
+    margin-left: auto;
   }
 }
 
