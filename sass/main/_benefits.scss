@@ -44,7 +44,6 @@
 
 .benefits-list__item {
   list-style: var(--point);
-  // flex-basis: calc((100% - 90px) / 4);
   &:not(:last-child) {
     margin-bottom: 30px;
   }

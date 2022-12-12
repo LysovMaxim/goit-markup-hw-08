@@ -411,6 +411,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+@media screen and (min-width: 1200px) {
+  .work {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+}
 
 .work-photo {
   list-style: var(--point);
@@ -451,14 +459,22 @@ body {
 .work-team {
   list-style: var(--point);
 }
-
-.player {
+@media screen and (min-width: 768px) {
+  .work-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+.work-team .player {
   background-color: #ffffff;
   padding-bottom: 30px;
   border-radius: 5px;
 }
-
-.player-team {
+.work-team .player-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -466,13 +482,27 @@ body {
   letter-spacing: 0.03em;
   margin-top: 30px;
 }
-
-.player-teams {
+.work-team .player-teams {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.player-teams:not(:last-child) {
+.work-team .player-teams:not(:last-child) {
   margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .work-team .player-teams {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+  .work-team .player-teams:not(:last-child) {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .work-team .player-teams {
+    -ms-flex-preferred-size: calc((100% - 90px) / 4);
+        flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 .job {
