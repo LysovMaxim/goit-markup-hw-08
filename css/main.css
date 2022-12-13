@@ -1175,8 +1175,9 @@ body {
 .modal {
   position: absolute;
   padding: 40px;
-  width: 528px;
-  min-height: 581px;
+  max-width: 450px;
+  min-height: 609px;
+  width: 100%;
   background-color: #ffffff;
   border-radius: 4px;
   top: 50%;
@@ -1328,6 +1329,7 @@ body {
 }
 
 .comment {
+  width: 100%;
   margin-top: 4px;
   padding-top: 12px;
   padding-right: 16px;
@@ -1395,8 +1397,8 @@ body {
 }
 
 .checkbox-text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.03em;
   color: #757575;
   display: -webkit-box;
@@ -1434,8 +1436,8 @@ body {
 }
 
 .checkbox-link {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -1448,7 +1450,7 @@ body {
   content: " ";
   position: absolute;
   left: 0px;
-  bottom: 5.7px;
+  bottom: 2px;
   display: block;
   width: 100%;
   height: 1px;
@@ -1459,7 +1461,8 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 50px;
   background-color: #2196f3;
   color: #ffffff;
