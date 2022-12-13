@@ -73,6 +73,7 @@ body {
   .nav-logo {
     font-size: 26px;
     line-height: 1.19;
+    margin-right: 93px;
   }
 }
 
@@ -90,6 +91,12 @@ body {
   .header {
     padding-top: 21px;
     padding-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
 }
 
@@ -182,6 +189,14 @@ body {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .link-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
+}
 
 .contacts__contact {
   -webkit-transition-property: color;
@@ -252,6 +267,12 @@ body {
 
 .contact-mail {
   margin-bottom: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .contact-mail {
+    margin-bottom: 0px;
+    margin-right: 30px;
+  }
 }
 
 .title {

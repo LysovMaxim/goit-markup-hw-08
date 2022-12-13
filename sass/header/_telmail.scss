@@ -1,9 +1,13 @@
 .link-contact {
   list-style: var(--point);
-  // display: flex;
+
   display: none;
   @media screen and (min-width: 768px) {
     display: block;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    margin-left: auto;
   }
 }
 
@@ -66,6 +70,10 @@
 }
 
 .contact-mail {
-  // margin-right: 30px;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    margin-right: 30px;
+  }
 }
