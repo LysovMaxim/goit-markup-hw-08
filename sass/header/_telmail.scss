@@ -1,6 +1,10 @@
 .link-contact {
   list-style: var(--point);
-  display: flex;
+  // display: flex;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .contacts__contact {
@@ -62,5 +66,6 @@
 }
 
 .contact-mail {
-  margin-right: 30px;
+  // margin-right: 30px;
+  margin-bottom: 10px;
 }

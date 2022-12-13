@@ -1,5 +1,9 @@
 .navigation-link {
-  margin-right: auto;
+  margin-right: 90px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .navigation-link__nav-link {
@@ -36,7 +40,8 @@
 
     position: absolute;
     left: 0px;
-    bottom: -0.4px;
+    // bottom: -0.4px;
+    bottom: -1px;
 
     display: block;
     width: 100%;
@@ -54,7 +59,7 @@
 
     position: absolute;
     left: 0px;
-    bottom: -0.4px;
+    bottom: -0.8px;
 
     display: block;
     width: 100%;

@@ -26,20 +26,30 @@
 .clients-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 30px;
 }
 
 .clients-atem {
   list-style: var(--point);
+  flex-basis: calc((100% - 30px) / 2);
+  max-width: 270px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 150px) / 6);
+  }
 }
 
 .clients-link {
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 
-  width: 170px;
   height: 92px;
   border-top: 1px solid #afb1b8;
   border-right: 1px solid #afb1b8;
