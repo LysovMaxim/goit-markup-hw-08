@@ -1,7 +1,7 @@
 .link-contact {
   list-style: var(--point);
-
   display: none;
+
   @media screen and (min-width: 768px) {
     display: block;
   }
