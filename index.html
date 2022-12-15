@@ -76,7 +76,7 @@
             </ul>
           </nav>
         </div>
-        <di class="mob-menu-bottom">
+        <div class="mob-menu-bottom">
           <ul class="mob-contact">
             <li class="mob-contacts tel-indent">
               <a href="tel:+380961111111" class="mob-contact-tel">
@@ -105,7 +105,7 @@
               </a>
             </li>
           </ul>
-        </di>
+        </div>
       </div>
     </div>
   </header>
@@ -278,7 +278,12 @@
             </ul>
           </li>
           <li class="player player-teams">
-            <img src="./images/nikolay.jpg" alt="фото учасника команди" width="270" height="260" />
+            <picture>
+              <source srcset="./images/nikolay.jpg 1x, ./images/nikolay-2x.jpg 2x" media="(min-width: 1200px)">
+              <source srcset="./images/nikolay-tab.jpg 1x, ./images/nikolay-tab-2x.jpg 2x" media="(min-width: 768px)">
+              <source srcset="./images/nikolay-mob.jpg 1x, ./images/nikolay-mob-2x.jpg 2x" media="(max-width: 767px)">
+              <img src="./images/nikolay.jpg" alt="фото учасника команди" width="270" height="260" />
+            </picture>
             <h3 class="player-team">Микола Тарасов</h3>
             <p lang="en" class="job">Marketing</p>
             <ul class="networks">
@@ -313,7 +318,12 @@
             </ul>
           </li>
           <li class="player player-teams">
-            <img src="./images/michael.jpg" alt="фото учасника команди" width="270" height="260" />
+            <picture>
+              <source srcset="./images/michael.jpg 1x, ./images/michael-2x.jpg 2x" media="(min-width: 1200px)">
+              <source srcset="./images/michael-tab.jpg 1x, ./images/michael-tab-2x.jpg 2x" media="(min-width: 768px)">
+              <source srcset="./images/michael-mob.jpg 1x, ./images/michael-mob-2x.jpg 2x" media="(max-width: 767px)">
+              <img src="./images/michael.jpg" alt="фото учасника команди" width="270" height="260" />
+            </picture>
             <h3 class="player-team">Михайло Єрмаков</h3>
             <p lang="en" class="job">UI Designer</p>
             <ul class="networks">
