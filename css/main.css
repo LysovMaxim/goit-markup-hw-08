@@ -218,7 +218,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--color-item-tel-mail);
@@ -239,6 +239,11 @@ body {
 }
 .contacts__contact:focus .contacts__envelop {
   fill: #2196f3;
+}
+@media screen and (min-width: 1200px) {
+  .contacts__contact {
+    font-size: 14px;
+  }
 }
 
 .contacts__contact .contacts__envelop {
@@ -709,6 +714,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .work {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -750,6 +756,12 @@ body {
   background-color: var(--background-team);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .out-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .work-team {
@@ -887,7 +899,7 @@ body {
 }
 
 .clients-title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 28px;
   line-height: 33px;
   text-align: center;
@@ -895,6 +907,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .clients-title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
