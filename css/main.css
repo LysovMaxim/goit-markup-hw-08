@@ -1698,25 +1698,29 @@ body {
           text-decoration-line: underline;
   color: #2196f3;
   margin-left: 5px;
-  text-decoration: none;
   position: relative;
 }
-.checkbox-link::before {
-  content: " ";
-  position: absolute;
-  left: 0px;
-  bottom: 2px;
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #2196f3;
+@media screen and (min-width: 480px) {
+  .checkbox-link {
+    text-decoration: none;
+  }
+  .checkbox-link::before {
+    content: " ";
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #2196f3;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) and (min-width: 1200px) {
   .checkbox-link::before {
     bottom: 5px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 480px) and (min-width: 1200px) {
   .checkbox-link {
     font-size: 14px;
     line-height: 24px;
